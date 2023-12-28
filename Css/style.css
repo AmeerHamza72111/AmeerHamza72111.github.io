@@ -1,0 +1,432 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation styles */
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Hero section styles */
+  /* .containerfirst{
+   
+  } */
+  .hero {
+    background-image: url('../Images/pexels-kelly-4320473.jpg');
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+ /* About Section styles */
+.about {
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-item {
+  margin-bottom: 30px;
+}
+
+.about-item h3 {
+  font-size: 1.8rem;
+  color: #28a745; /* Green color */
+}
+
+.about-item p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-image-container {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+}
+  /* Services section styles */
+  .services {
+    background-color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .service-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .service-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+  }
+
+
+
+/* Achievements Section styles */
+.achievements {
+  padding: 80px 0;
+}
+
+.achievements h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.achievement-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.achievement-item img {
+  width: 100%;
+  border-radius: 5px;
+  
+  
+}
+
+.achievement-item h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.achievement-item p {
+  font-size: 1rem;
+}
+
+/* Testimonials Section styles */
+.testimonials {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.testimonial-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.testimonial-item p {
+  font-size: 1.1rem;
+}
+
+.testimonial-item .customer-name {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Bootstrap 5 Carousel styles */
+.carousel-item img {
+  width: 100%;
+  border-radius: 5px;
+  height: 600px;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+  color:rgb(42, 42, 42) !important;
+}
+
+
+/* ... (previous styles remain unchanged) */
+
+/* Featured Projects Section styles */
+.projects {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.project-item {
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.project-info {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Team Section styles */
+/*meet our team container*/
+
+.team-container {
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+}
+.adjustCenID
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.member-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.member-description {
+  color: #777;
+  margin-bottom: 20px;
+}
+.team-member {
+  margin: -5px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 5%;
+  transition: transform 0.3s, filter 0.3s;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  height: 350px;
+}
+
+.team-member .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.team-member .overlay-circle {
+ 
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.team-member .overlay i {
+  color: black;
+  font-size: 36px;
+}
+
+.team-member:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.7); /* Darken the image */
+}
+
+.team-member:hover .overlay {
+  opacity: 1;
+}
+
+/* ... (remaining styles remain unchanged) */
+
+
+  
+  /* Contact Us Section styles */
+.contact {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 1.2rem;
+  color: #495057;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  background-color: #28a745;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.contact-form button:hover {
+  background-color: #218838;
+}
+  
+  /* Footer styles */
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .carousel-item img {
+      width: 100%;
+      border-radius: 5px;
+      height: auto;
+    }
+    }
+
+  @media (max-width: 767px) {
+    .navbar-nav {
+      margin-left: 0;
+    }
+  
+    .navbar-toggler {
+      margin-right: 15px;
+    }
+  
+    .hero {
+      padding: 80px 0;
+    }
+  
+    .about img {
+      margin-top: 20px;
+    }
+  
+    .services,
+    .contact {
+      padding: 60px 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .achievements h2,
+    .testimonials h2 {
+      font-size: 1.8rem;
+    }
+  }
